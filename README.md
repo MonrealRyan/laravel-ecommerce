@@ -21,11 +21,11 @@ if you have installed MYSQL and Apache you need to disabled it first before runn
 
  - clone the project and proceed to the project folder
  - run `composer install` installation of pre-requisite packages
- - run `sail up` more info about [Laravel Sail](https://laravel.com/docs/10.x/sail)
+ - run `./vendor/bin/sail -f docker-compose-local.yml up` or `sail -f docker-compose-local.yml up` more info about [Laravel Sail](https://laravel.com/docs/10.x/sail)
     - Note for `sail up` command this will only work if you may wist to add a shell alias for this [check here](https://laravel.com/docs/10.x/sail#configuring-a-shell-alias)
 
 ## Test
- - run `sail test`
+ - run `./vendor/bin/sail test` or `sail test`
 
 ## Scope
 
